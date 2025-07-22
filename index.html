@@ -1,0 +1,3019 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa de Carreiras - Gmaia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #F4F4F4;
+    }
+    header {
+      background-color: #4BA3C3;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+    }
+    .container {
+      padding: 20px;
+    }
+    .cargo {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      border-left: 6px solid #4BA3C3;
+      cursor: pointer;
+
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      border-left: 5px solid #4BA3C3;
+    }
+    .cargo h2 {
+      font-size: 16px;
+      margin: 0;
+      color: #003366;
+    }
+    .tag {
+      background: #4BA3C3;
+      color: white;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 12px;
+      margin-left: 10px;
+    }
+    .detalhes {
+      margin-top: 10px;
+      font-size: 14px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo_gmaia.jpeg" alt="Logo Gmaia">
+    <h1>Mapa de Carreiras</h1>
+  </header>
+
+  <div class="container">
+    <div class="busca">
+      
+    <div style="position: relative; max-width: 400px;">
+      <input type="text" id="searchInput" onkeyup="buscarCargo()" placeholder="Buscar cargo..." style="padding-left: 30px; width: 100%; height: 35px; font-size: 14px;">
+      <span style="position: absolute; top: 8px; left: 8px; font-size: 16px;">🔍</span>
+    </div>
+    
+    </div>
+
+    <div class="filtro">
+      <label for="areaSelect">Filtrar por área:</label>
+      <select id="areaSelect" onchange="filtrarPorArea()">
+        <option value="todas">Todas</option>
+        <option value="Engenharia">Engenharia</option>
+        <option value="Controladoria">Controladoria</option>
+        <option value="Gestão de Pessoas">Gestão de Pessoas</option>
+        <option value="Tecnologia da Informação">Tecnologia da Informação</option>
+        <option value="Logística e Suprimentos">Logística e Suprimentos</option>
+        <option value="Comercial">Comercial</option>
+        <option value="Segurança e Meio Ambiente">Segurança e Meio Ambiente</option>
+        <option value="Manutenção">Manutenção</option>
+        <option value="Administrativo">Administrativo</option>
+        <option value="Outros">Outros</option>
+      </select>
+    </div>
+
+    <div class="cargo" data-area="Controladoria">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE CONTROLADORIA SR  <span class="tag">CBO 252210</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Coletar e compilar informações referentes às receitas, despesas, custos fixos, custos variáveis e investimentos gerados indicadores dos resultados econômicos, financeiros, operacionais e comerciais da empresa.</p>
+        <p><strong>Atividades:</strong> Analisar relatórios gerados pelo Sistema de gestão integrada verificando a veracidade das informações; 
+Orientar e apoiar as equipes das outras áreas para a adequada utilização do Sistema de Gestão Integrada; 
+Compilar as informações financeiras e econômicas para fechamento de Relatório Gerencial mensal; 
+Realizar e conferir cálculo de impostos; 
+Realizar e conferir medições no Sistema de Gestão Integrada; 
+Controlar e administrar os adiantamentos de despesas (caixa); 
+Efetuar os lançamentos no Sistema de Gestão Integrada; 
+Efetuar os pagamentos juntos as redes bancárias; 
+Elaborar e emitir guias de impostos; 
+Elaborar o relatório de fluxo de caixa; 
+Elaborar o relatório financeiro de pagamentos; 
+Emitir notas fiscais de serviço; 
+Acompanhar o recebimento das notas fiscais de serviços, 
+Atuando na cobrança; 
+Conciliar balancetes gerencias x balancetes contábeis; 
+Assegurar as entregas das obrigações acessórias; 
+Analisar razões de contas contábeis; 
+Realizar o fechamento do SPED anual; 
+Assegurar a conciliação das contas bancárias no Sistema de gestão integrada; 
+Realizar inputs de documentos no Sistema de gestão integrada; 
+Apoiar o gestor da controladoria em suas atribuições; </p>
+        <p><strong>Formação:</strong> Superior completo Ciências Contábeis e Especialização completa na área de Atuação</p>
+        <p><strong>Experiência:</strong> Experiência mínima de 6 anos com na área financeira ou 5 anos na empresa na área de financeira</p>
+        <p><strong>Conhecimentos:</strong> Pacote Office; Excel Avançado.</p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Controladoria">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE CONTROLADORIA PL  <span class="tag">CBO 252210</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Coletar e compilar informações referentes às receitas, despesas, custos fixos, custos variáveis e investimentos gerados indicadores dos resultados econômicos, financeiros, operacionais e comerciais da empresa.</p>
+        <p><strong>Atividades:</strong> Analisar relatórios gerados pelo Sistema de gestão integrada verificando a veracidade das informações; 
+Orientar e apoiar as equipes das outras áreas para a adequada utilização do Sistema de Gestão Integrada; 
+Compilar as informações financeiras e econômicas para fechamento de Relatório Gerencial mensal; 
+Realizar e conferir cálculo de impostos; 
+Realizar e conferir medições no Sistema de Gestão Integrada; 
+Controlar e administrar os adiantamentos de despesas (caixa); 
+Efetuar os lançamentos no Sistema de Gestão Integrada; 
+Efetuar os pagamentos juntos as redes bancárias; 
+Elaborar e emitir guias de impostos; 
+Elaborar o relatório de fluxo de caixa; 
+Elaborar o relatório financeiro de pagamentos; 
+Emitir notas fiscais de serviço; 
+Acompanhar o recebimento das notas fiscais de serviços, atuando na cobrança; 
+Conciliar balancetes gerencias x balancetes contábeis; 
+Assegurar as entregas das obrigações acessórias; 
+Analisar razões de contas contábeis; 
+Realizar o fechamento do SPED anual; 
+Assegurar a conciliação das contas bancárias no Sistema de gestão integrada; 
+Realizar inputs de documentos no Sistema de gestão integrada; 
+Apoiar o gestor da controladoria em suas atribuições</p>
+        <p><strong>Formação:</strong> Curso superior em Ciências Contábeis.
+Desejável
+Especialização completa na área de Atuação.</p>
+        <p><strong>Experiência:</strong> Experiência mínima de 5 anos com na área financeira ou 4 anos na empresa na área de financeira.</p>
+        <p><strong>Conhecimentos:</strong> Pacote Office; Excel Avançado</p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Controladoria">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE CONTROLADORIA JR  <span class="tag">CBO 252210</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Desempenhar, com supervisão, atividades de complexidade restrita relacionadas aos processos de recolhimento fiscal.</p>
+        <p><strong>Atividades:</strong> Desempenhar, com supervisão, atividades de complexidade restrita relacionadas aos processos de recolhimento fiscal.
+PRINCIPAIS ATIVIDADES E RESPONSABILIDADES
+Realizar o lançamento de notas fiscais; 
+Efetuar registros de entrada e saída nos livros fiscais;
+Realizar apuração de impostos e emissão de documentos de arrecadação;
+Analisar e escriturar notas fiscais;
+Realizar levantamentos de informações diversas em apoio à revisão de fluxos e procedimentos fiscais;
+Acompanhar a emissão de informes de rendimentos;
+Efetuar classificações fiscais, verificando irregularidades</p>
+        <p><strong>Formação:</strong> Superior completo Ciências Contábeis</p>
+        <p><strong>Experiência:</strong> Mínimo de 4 anos de experiência na área ou 3 anos de empresa.</p>
+        <p><strong>Conhecimentos:</strong> Técnicas Financeiras, Tributárias e Contábil, Matemática Financeira e Informática</p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Controladoria">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE CONTROLADORIA I  <span class="tag">CBO 252210</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Coletar e compilar informações referentes às receitas, despesas, custos fixos, custos variáveis e investimentos gerados indicadores dos resultados econômicos, financeiros, operacionais e comerciais da empresa.</p>
+        <p><strong>Atividades:</strong> Analisar relatórios gerados pelo Sistema de gestão integrada verificando a veracidade das informações; 
+Apoiar as equipes das outras áreas para a adequada utilização do Sistema de Gestão Integrada; 
+Compilar as informações financeiras e econômicas para fechamento de Relatório Gerencial mensal; 
+Conferir cálculo de impostos. 
+Conferir medições; 
+Conferir relatórios gerados pelo Sistema de gestão integrada verificando a veracidade das informações; 
+Controlar e administrar os adiantamentos de despesas (caixa); 
+Efetuar os lançamentos no Sistema de Gestão Integrada; 
+Efetuar os pagamentos; 
+Elaborar e emitir guias de impostos; 
+Elaborar o relatório de fluxo de caixa; 
+Elaborar relatório financeiro de pagamentos; 
+Emitir notas fiscais de serviço; 
+Acompanhar o recebimento das notas fiscais de serviços, Atuando na cobrança; 
+Incluir no site do Banco os pagamentos feitos no relatório da semana; 
+Realizar conciliação das contas bancárias no Sistema de gestão integrada; 
+Realizar inputs de documentos no Sistema de gestão integrada; 
+Separar documentos para contabilidade</p>
+        <p><strong>Formação:</strong> Formação Educacional
+Superior completo Administração ou Ciências Contábeis ou experiência na área Financeira. 
+Desejável 
+Superior cursando Administração ou Ciências Contábeis. </p>
+        <p><strong>Experiência:</strong> ínimo de 2 anos de experiência na área ou 1 ano de empresa. </p>
+        <p><strong>Conhecimentos:</strong> Pacote Office; Excel Intermediário </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE PLANEJAMENTO JR  <span class="tag">CBO 411010</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Controlar e Planejar para que as obras contratadas sejam realizadas dentro do planejado no cronograma previsto e com a rentabilidade almejada</p>
+        <p><strong>Atividades:</strong> Elaboração e análise do cronograma físico-financeiro da obra, de acordo com as informações contidas no detalhamento do orçamento e o contexto encontrado; 
+Elaboração de estrutura analítica de projetos EAP, histogramas e Curva S; 
+Executar a provisão de custos, conforme planejamento, acompanhando e supervisionando a sua realização; 
+Submeter o planejamento (cronograma físico, documentação técnica) para apreciação, comentários e aprovação do cliente quando houver esta demanda; 
+Aferir resultados físicos e econômicos das obras, acompanhando o seu andamento; 
+Acompanhamento de produtividade e medições conferindo e solicitando o faturamento das mesmas; 
+Atualizar planilhas com base na medição, NF, Contrato e Aditivos; 
+Atualização dos KPI’s do setor; 
+Zelar pela gestão do conhecimento desenvolvido dentro da empresa; 
+Acompanhar o registro de atestados; 
+Acompanhar registro de ART; 
+Acompanhar e controlar propostas e contratos com clientes; 
+Controlar distribuição de funcionários por empreendimento, e definir alocação em cada obra; 
+Praticar suas atividades em conformidade com as diretrizes da política da Construtora G-Maia, observando as normas e procedimentos bem como os aspectos de segurança e saúde ocupacional, meio ambiente, qualidade e responsabilidade social; 
+Atender demandas diversas solicitadas pelo Gerente corporativo. 
+Cotação e aprovação junto a diretoria da G-Maia e Soegeo, dos seguros exigidos nos contratos de execução da obras.</p>
+        <p><strong>Formação:</strong> Superior completo em Engenharia Civil ou áreas afins</p>
+        <p><strong>Experiência:</strong> Mínimo de 4 anos de experiência na área ou 3 anos de empresa</p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE PLANEJAMENTO II  <span class="tag">CBO 411010</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Controlar e Planejar para que as obras contratadas sejam realizadas dentro do planejado no cronograma previsto e com a rentabilidade almejada</p>
+        <p><strong>Atividades:</strong> Elaboração e análise do cronograma físico-financeiro da obra, de acordo com as informações contidas no detalhamento do orçamento e o contexto encontrado; 
+Elaboração de estrutura analítica de projetos EAP, histogramas e Curva S; 
+Executar a provisão de custos, conforme planejamento, acompanhando e supervisionando a sua realização; 
+Submeter o planejamento (cronograma físico, documentação técnica) para apreciação, comentários e aprovação do cliente quando houver esta demanda; 
+Aferir resultados físicos e econômicos das obras, acompanhando o seu andamento; 
+Acompanhamento de produtividade e medições conferindo e solicitando o faturamento delas; 
+Atualizar planilhas com base na medição, NF, Contrato e Aditivos; 
+Atualização dos KPI’s do setor; 
+Zelar pela gestão do conhecimento desenvolvido dentro da empresa; 
+Acompanhar o registro de atestados; 
+Acompanhar registro de ART; 
+Acompanhar e controlar propostas e contratos com clientes; 
+Controlar distribuição de funcionários por empreendimento, e definir alocação em cada obra; 
+Praticar suas atividades em conformidade com as diretrizes da política da Construtora G-Maia, observando as normas e procedimentos bem como os aspectos de segurança e saúde ocupacional, meio ambiente, qualidade e responsabilidade social; 
+Atender demandas diversas solicitadas pelo Gerente corporativo. 
+Cotação e aprovação junto a diretoria da G-Maia e Soegeo, dos seguros exigidos nos contratos de execução da obras</p>
+        <p><strong>Formação:</strong> Superior completo em Engenharia Civil ou áreas afins</p>
+        <p><strong>Experiência:</strong> Mínimo de 3 anos de experiência na área ou 2 anos de empresa</p>
+        <p><strong>Conhecimentos:</strong> Pacote Office; Excel Intermediário; MS-Project</p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE PLANEJAMENTO II  <span class="tag">CBO 411010</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Controlar e Planejar para que as obras contratadas sejam realizadas dentro do planejado no cronograma previsto e com a rentabilidade almejada</p>
+        <p><strong>Atividades:</strong> Elaboração e análise do cronograma físico-financeiro da obra, de acordo com as informações contidas no detalhamento do orçamento e o contexto encontrado; Elaboração de estrutura analítica de projetos EAP, histogramas e Curva S; 
+Executar a provisão de custos, conforme planejamento, acompanhando e supervisionando a sua realização; 
+Submeter o planejamento (cronograma físico, documentação técnica) para apreciação, comentários e aprovação do cliente quando houver esta demanda; 
+Aferir resultados físicos e econômicos das obras, acompanhando o seu andamento; 
+Acompanhamento de produtividade e medições conferindo e solicitando o faturamento delas; 
+Atualizar planilhas com base na medição, NF, Contrato e Aditivos; 
+Atualização dos KPI’s do setor; 
+Zelar pela gestão do conhecimento desenvolvido dentro da empresa; 
+Acompanhar o registro de atestados; 
+Acompanhar registro de ART; 
+Acompanhar e controlar propostas e contratos com clientes; 
+Controlar distribuição de funcionários por empreendimento, e definir alocação em cada obra; 
+Praticar suas atividades em conformidade com as diretrizes da política da Construtora G-Maia, observando as normas e procedimentos bem como os aspectos de segurança e saúde ocupacional, meio ambiente, qualidade e responsabilidade social; 
+Atender demandas diversas solicitadas pelo Gerente corporativo. 
+Cotação e aprovação junto a diretoria da G-Maia e Soegeo, dos seguros exigidos nos contratos de execução da obras</p>
+        <p><strong>Formação:</strong> Superior completo em Engenharia Civil ou áreas afins</p>
+        <p><strong>Experiência:</strong> Mínimo de 3 anos de experiência na área ou 2 anos de empresa</p>
+        <p><strong>Conhecimentos:</strong> Pacote Office; Excel Intermediário; MS-Project</p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE PLANEJAMENTO I <span class="tag">CBO 411010</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Controlar e Planejar para que as obras contratadas sejam realizadas dentro do planejado no cronograma previsto e com a rentabilidade almejada</p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE PLANEJAMENTO III <span class="tag">CBO 391125</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Controlar e Planejar para que as obras contratadas sejam realizadas dentro do planejado no cronograma previsto e com a rentabilidade almejada</p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE PLANEJAMENTO II <span class="tag">CBO 391125</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Controlar e Planejar para que as obras contratadas sejam realizadas dentro do planejado no cronograma previsto e com a rentabilidade almejada</p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE PLANEJAMENTO I  <span class="tag">CBO 391125</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> Controlar e Planejar para que as obras contratadas sejam realizadas dentro do planejado no cronograma previsto e com a rentabilidade almejada</p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE QUALIDADE II <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE QUALIDADE <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE MEDIÇÃO <span class="tag">CBO 312105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE SUPORTE TI PLENO  <span class="tag">CBO 212420</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE TI I <span class="tag">CBO 317210</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SOCIO DIRETOR <span class="tag">CBO 123110</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        GERENTE DE UNIDADE <span class="tag">CBO 141205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        GESTOR ADMINISTRATIVO  <span class="tag">CBO 142105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO ADMINISTRATIVO DE OBRA <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE PROCESOS ADMINISTRATIVOS JR <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE ADMINISTRATIVO II <span class="tag">CBO 411010</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE ADMINISTRATIVO I <span class="tag">CBO 411010</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR ADMINISTRATIVO  <span class="tag">CBO 411005</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO ADMINISTRATIVO  <span class="tag">CBO 351305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        VIGIA PATRIMONIAL <span class="tag">CBO 517420</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Gestão de Pessoas">
+      <h2 onclick="toggleDetalhes(this)">
+        GERENTE DE GESTÃO DE PESSOAS <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE GESTAO DE PESSOAS SR <span class="tag">CBO 252405</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE GESTAO DE PESSOAS PL <span class="tag">CBO 252405</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE GESTAO DE PESSOAS JR  <span class="tag">CBO 252405</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Gestão de Pessoas">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE ADMINISTRAÇÃO DE PESSOAL SR  <span class="tag">CBO 252405</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Gestão de Pessoas">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE ADMINISTRAÇÃO DE PESSOAL PL  <span class="tag">CBO 252405</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Gestão de Pessoas">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE ADMINISTRAÇÃO DE PESSOAL JR  <span class="tag">CBO 252405</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Gestão de Pessoas">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE RECURSOS HUMANOS II <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Gestão de Pessoas">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE RECURSOS HUMANOS I <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Gestão de Pessoas">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE ADMINISTRAÇÃO DE PESSOAL II <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Gestão de Pessoas">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE ADMINISTRAÇÃO DE PESSOAL I <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ESTAGIÁRIO - ADMINISTRAÇÃO DE PESSOAS <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        APRENDIZ MECÂNICO DE MÁQUINAS PESADAS <span class="tag">CBO 413110</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        APRENDIZ DE LÓGISTICA – CBO 413110 <span class="tag">CBO 413110</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        APRENDIZ ADMINISTRATIVO <span class="tag">CBO 413110</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Logística e Suprimentos">
+      <h2 onclick="toggleDetalhes(this)">
+        SUPERVISOR DE SUPRIMENTOS  <span class="tag">CBO 354205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Logística e Suprimentos">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE SUPRIMENTOS PL <span class="tag">CBO 354205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Logística e Suprimentos">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE SUPRIMENTOS JR  <span class="tag">CBO 354205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Logística e Suprimentos">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE SUPRIMENTOS <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Logística e Suprimentos">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR DE SUPRIMENTOS <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        LOGÍSTICA <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE LÓGISTICA  <span class="tag">CBO 252715</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Logística e Suprimentos">
+      <h2 onclick="toggleDetalhes(this)">
+        ALMOXARIFE II  <span class="tag">CBO 414105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Logística e Suprimentos">
+      <h2 onclick="toggleDetalhes(this)">
+        ALMOXARIFE  <span class="tag">CBO 414105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR DE ALMOXARIFADO <span class="tag">CBO 414105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        GESTOR DE SEGURANÇA <span class="tag">CBO 214915</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        COORDENADOR DE SEGURANÇA DO TRABALHO <span class="tag">CBO 351605</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        ENGENHEIRO DE SEGURANÇA DO TRABALHO  <span class="tag">CBO 214915</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE SEGURANÇA DO TRABALHO JR <span class="tag">CBO 351605</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE SEGURANÇA DO TRABALHO III  <span class="tag">CBO 351605</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE SEGURANÇA DO TRABALHO II  <span class="tag">CBO 351605</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE SEGURANÇA DO TRABALHO I <span class="tag">CBO 351605</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO EM MEIO AMBIENTE III  <span class="tag">CBO 311505</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO EM MEIO AMBIENTE II  <span class="tag">CBO 311505</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO EM MEIO AMBIENTE I <span class="tag">CBO 311505</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        MÉDICO DO TRABALHO <span class="tag">CBO 225140</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE ENFERMAGEM DO TRABALHO III  <span class="tag">CBO 322215</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE ENFERMAGEM DO TRABALHO II  <span class="tag">CBO 322215</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE ENFERMAGEM DO TRABALHO I  <span class="tag">CBO 322215</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE TÉCNICO EM MEIO AMBIENTE II <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE TÉCNICO EM MEIO AMBIENTE <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR TÉCNICO EM MEIO AMBIENTE <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR TÉCNICO EM SEGURANÇA <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Segurança e Meio Ambiente">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR TÉCNICO DE ENFERMAGEM DO TRABALHO <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        LÍDER DE ELÉTRICA <span class="tag">CBO 950105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ELETROTÉCNICO II  <span class="tag">CBO 313105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ELETROTÉCNICO I  <span class="tag">CBO 313105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        ELETRICISTA II  <span class="tag">CBO 715615</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        ELETRICISTA <span class="tag">CBO 715615</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR DE ELETRICISTA II  <span class="tag">CBO 715615</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR ELETRICISTA I <span class="tag">CBO 715615</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Comercial">
+      <h2 onclick="toggleDetalhes(this)">
+        GESTOR COMERCIAL <span class="tag">CBO 142305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        GESTOR DE ORÇAMENTO <span class="tag">CBO 142305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Comercial">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA COMERCIAL SR <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Comercial">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA COMERCIAL PL <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Comercial">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA COMERCIAL JR <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE PESQUISA E DESENVOLVIMENTO <span class="tag">CBO 3951-05</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Comercial">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE COMERCIAL II <span class="tag">CBO 354125</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Comercial">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE COMERCIAL  <span class="tag">CBO 354125</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE ORÇAMENTO SR  <span class="tag">CBO 410230</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE ORÇAMENTO PL – CBO 410230 <span class="tag">CBO 410230</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE ORÇAMENTO JR – CBO 410230 <span class="tag">CBO 410230</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE ORÇAMENTO II <span class="tag">CBO 312105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE ORÇAMENTO I <span class="tag">CBO 312105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ESTAGIÁRIO – JURÍDICO <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        MONTAGEM E DESMONTAGEM DE ANDAIMES <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE MONTAGEM DE ANDAIMES II <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE MONTAGEM DE ANDAIMES II  <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE MONTAGEM DE ANDAIMES I  <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        MONTADOR DE ANDAIMES LÍDER <span class="tag">CBO 715545</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        MONTADOR DE ANDAIMES II  <span class="tag">CBO 715545</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        MONTADOR DE ANDAIMES <span class="tag">CBO 715545</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        MONTADOR DE ESTRUTURAS METÁLICAS – CBO 7242-05 <span class="tag">CBO  7242-05</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        PINTURA E MANUTENÇÃO <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        COORDENADOR DE MANUTENÇÃO <span class="tag">CBO 313115</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE MANUTENÇÃO  <span class="tag">CBO 911305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        MECÂNICO DE MANUTENÇÃO LIDER <span class="tag">CBO 911305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        LÍDER MECÂNICO <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO ELETROMECANICA  <span class="tag">CBO 300305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO MECÂNICA  <span class="tag">CBO 314110</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        MECÂNICO III <span class="tag">CBO 911305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        MECÂNICO II <span class="tag">CBO 911305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        MECÂNICO <span class="tag">CBO 911305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR MECÂNICA I <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        OFICIAL DE MANUTENÇÃO PREDIAL II <span class="tag">CBO 514325</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Manutenção">
+      <h2 onclick="toggleDetalhes(this)">
+        OFICIAL DE MANUTENÇÃO PREDIAL I <span class="tag">CBO 514325</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        PINTOR <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        GEOTECNIA <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        OFICIAL DE GEOTECNIA II <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        OFICIAL DE GEOTECNIA <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        MOTORISTAS <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        MOTORISTA DE VEÍCULO PESADO II  <span class="tag">CBO 782510</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        MOTORISTA DE VEÍCULO PESADO <span class="tag">CBO 782510</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        MOTORISTA DE COMBOIO  <span class="tag">CBO 782510</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        MOTORISTA DE COMBOIO II  <span class="tag">CBO 782510</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        MOTORISTA II  <span class="tag">CBO 782310</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        MOTORISTA <span class="tag">CBO 782310</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        MOTORISTA DE ÔNIBUS – CBO 782405 (NOVO) <span class="tag">CBO 782405</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ISOLAMENTO TÉRMICO <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        APLICADOR DE ISOLANTES IV <span class="tag">CBO 715705</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        APLICADOR DE ISOLANTES III <span class="tag">CBO 715705</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        APLICADOR DE ISOLANTES II  <span class="tag">CBO 715705</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        APLICADOR DE ISOLANTES I  <span class="tag">CBO 715705</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR DE SERVIÇOS GERAIS  <span class="tag">CBO 514320</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        GESTOR DE OBRAS <span class="tag">CBO 141305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ESPECIALISTA TÉCNICO II <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ESPECIALISTA TÉCNICO I <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SUPERVISOR DE OBRAS III  <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SUPERVISOR DE OBRAS II <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SUPERVISOR DE OBRAS I <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE MONTAGEM  <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE OBRAS III <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE OBRAS II <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE OBRAS I  <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SUB ENCARREGADO DE OBRAS <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO RIGGER  <span class="tag">CBO 710205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE TERRAPLANAGEM  <span class="tag">CBO 710215</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE CONCRETO Iii <span class="tag">CBO 710220</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ENCARREGADO DE CONCRETO II  <span class="tag">CBO 710220</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        PROJETISTA RIGGER  <span class="tag">CBO 318510</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA ADMINISTRATIVO DE OBRAS <span class="tag">CBO 411010</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE MINERAÇÃO  <span class="tag">CBO 316305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE QUALIDADE <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE QUALIDADE <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE EDIFICAÇÕES III <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE EDIFICAÇÕES II  <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TÉCNICO DE EDIFICAÇÕES I <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        PEDREIRO DE EDIFICAÇÕES II <span class="tag">CBO 715230</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        PEDREIRO DE EDIFICAÇÕES  <span class="tag">CBO 715230</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        CARPINTEIRO II  <span class="tag">CBO 715525</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        CARPINTEIRO I  <span class="tag">CBO 715525</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        GREIDISTA  <span class="tag">CBO 312320</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SINALEIRO RIGGER  <span class="tag">CBO 312320</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SINALEIRO  <span class="tag">CBO 782145</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        INSTRUMENTISTA  <span class="tag">CBO 313205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        AJUDANTE DE OBRA <span class="tag">CBO 717020</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        AJUDANTE DE TUBULAÇÃO  <span class="tag">CBO 724110</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        APONTADOR DE OBRAS <span class="tag">CBO 414205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE CAMINHÃO BASCULANTE <span class="tag">CBO 782510</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE BOMBA DE CONCRETO <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE PERFURATRIZ III  <span class="tag">CBO 711230</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE PERFURATRIZ II  <span class="tag">CBO 711230</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE PERFURATRIZ I  <span class="tag">CBO 711230</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE MÁQUINAS DE CONSTRUÇÃO CIVIL <span class="tag">CBO 715125</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE GUINDAUTO  <span class="tag">CBO  7821-15</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE SOLDA ELÉTRICA <span class="tag">CBO 724325</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE MÁQUINAS IV <span class="tag">CBO 715125</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE DE MÁQUINAS III  <span class="tag">CBO 715125</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE DE MÁQUINAS II  <span class="tag">CBO 715125</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Obras">
+      <h2 onclick="toggleDetalhes(this)">
+        OPERADOR DE DE MÁQUINAS I  <span class="tag">CBO 715125</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Administrativo">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE TÉCNICO OPERACIONAL II <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Administrativo">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE TÉCNICO OPERACIONAL I <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR DE TÉCNICO OPERACIONAL <span class="tag">CBO 411005</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR DE PRODUÇÃO  <span class="tag">CBO 717020</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR DE PRODUÇÃO II  <span class="tag">CBO 717020</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        FEITOR DE AMARRAÇÃO  <span class="tag">CBO 715315</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        TOPOGRAFO  <span class="tag">CBO 312320</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        AUXILIAR DE TOPOGRAFIA  <span class="tag">CBO 312320</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        INJETADOR III – CBO 715410 <span class="tag">CBO 715410</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        INJETADOR II – CBO 715410 <span class="tag">CBO 715410</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        INJETADOR – CBO 715410 <span class="tag">CBO 715410</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        MARTELETEIRO  <span class="tag">CBO 717010</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        MEIO OFICIAL <span class="tag">CBO 717020</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        BOMBEIRO HIDRÁULICO <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        LUBRIFICADOR II  <span class="tag">CBO 919110</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        LUBRIFICADOR I  <span class="tag">CBO 919110</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ARMADOR II <span class="tag">CBO 715315</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        ARMADOR <span class="tag">CBO 715315</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        VIGIA  <span class="tag">CBO 517420</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        GERENTE OPERACIONAL <span class="tag">CBO 141305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        COORDENADOR(A) DE ENGENHARIA  <span class="tag">CBO 214205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        ENGENHEIRO DE PLANEJAMENTO <span class="tag">CBO 214205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        ENGENHEIRO DE OBRAS  <span class="tag">CBO 214205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        ENGENHEIRO CIVIL <span class="tag">CBO 214205</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        ENGENHEIRO ELETRICISTA <span class="tag">CBO 214305</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE ENGENHARIA PL <span class="tag">CBO 312105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        ANALISTA DE ENGENHARIA JR <span class="tag">CBO 312105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        DESENHISTA CADISTA  <span class="tag">CBO 312105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE ENGENHARIA II  <span class="tag">CBO 312105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE ENGENHARIA I  <span class="tag">CBO 312105</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SOLDADOR MIG MAG II  <span class="tag">CBO 724315</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SOLDADOR MIG MAG I  <span class="tag">CBO 724315</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SOLDADOR MAÇARIQUEIRO II <span class="tag">CBO 724315</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SOLDADOR MAÇARIQUEIRO  <span class="tag">CBO 724315</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Outros">
+      <h2 onclick="toggleDetalhes(this)">
+        SOLDADOR  <span class="tag">CBO 724315</span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE COMUNICAÇÃO E MARKETING II <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Tecnologia da Informação">
+      <h2 onclick="toggleDetalhes(this)">
+        ASSISTENTE DE COMUNICAÇÃO E MARKETING I <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+    <div class="cargo" data-area="Engenharia">
+      <h2 onclick="toggleDetalhes(this)">
+        TRAINEE ENGENHARIA  <span class="tag">CBO </span>
+      </h2>
+      <div class="detalhes">
+        <p><strong>Missão:</strong> </p>
+        <p><strong>Atividades:</strong> </p>
+        <p><strong>Formação:</strong> </p>
+        <p><strong>Experiência:</strong> </p>
+        <p><strong>Conhecimentos:</strong> </p>
+      </div>
+    </div>
+    
+  </div>
+
+  <footer>
+    <p>Mapa de Carreiras desenvolvido para Gmaia e Soegeo - Grupo Priner</p>
+    <img src="logo_soegeo.jpeg" alt="Logo Soegeo">
+  </footer>
+
+  <script>
+    function toggleDetalhes(elem) {
+      const detalhes = elem.nextElementSibling;
+      detalhes.style.display = detalhes.style.display === "none" ? "block" : "none";
+    }
+    function filtrarPorArea() {
+      const area = document.getElementById('areaSelect').value;
+      const cargos = document.querySelectorAll('.cargo');
+      cargos.forEach(cargo => {
+        cargo.style.display = (area === 'todas' || cargo.dataset.area === area) ? 'block' : 'none';
+      });
+    }
+    function buscarCargo() {
+      const termo = document.getElementById('searchInput').value.toLowerCase();
+      const cargos = document.querySelectorAll('.cargo');
+      cargos.forEach(cargo => {
+        const texto = cargo.textContent.toLowerCase();
+        cargo.style.display = texto.includes(termo) ? 'block' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
