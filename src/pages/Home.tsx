@@ -1,1 +1,0 @@
-// placeholder: insira conteúdo do Home aqui (substituir manualmente)
